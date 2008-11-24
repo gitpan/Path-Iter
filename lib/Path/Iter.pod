@@ -4,7 +4,7 @@ Path::Iter - Simple Efficient Path Iteration
 
 =head1 VERSION
 
-This document describes Path::Iter version 0.1
+This document describes Path::Iter version 0.2
 
 =head1 SYNOPSIS
 

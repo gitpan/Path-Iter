@@ -10,6 +10,9 @@ diag( "Testing Path::Iter $Path::Iter::VERSION" );
 chdir 't'; # just in case we're not already there
 BAIL_OUT('I am not in the right place, sorry') if !-d 'path';
 
+symlink('path','link');
+BAIL_OUT('Could not make the symlink') if !-l 'link';
+
 my @lookup_build = (
     [qw(dir.a)],
     [qw(file.b)],

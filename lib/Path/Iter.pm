@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use File::Spec ();
 
-$Path::Iter::VERSION = 0.1;
+$Path::Iter::VERSION = 0.2;
 
 sub get_iterator {
     my @queue = @_;

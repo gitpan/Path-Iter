@@ -16,5 +16,4 @@ t/path/dir.a/file.x
 t/path/dir.a/file.y
 t/path/file.b
 t/path/file.z
-t/link
 META.yml                                 Module meta-data (added by MakeMaker)
